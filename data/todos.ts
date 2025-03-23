@@ -1,11 +1,10 @@
-export type Data = {
+export type TodoType = {
   id: number;
   title: string;
   completed: boolean;
 };
 
-
-export const data: Data[] = [
+export const data: TodoType[] = [
   {
     id: 1,
     title: "Finish reading the book",
